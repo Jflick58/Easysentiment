@@ -18,6 +18,11 @@ Python 3.5 or higher
 
 1. Download the repository, and unzip to your desktop. 
 
-2. Run 
+2. Run the following from the terminal:
+
+```python
+python (path to setup,py) install
+```
+3. 
 
 
