@@ -16,13 +16,26 @@ Python 3.5 or higher
 
 # Use 
 
-1. Download the repository, and unzip to your desktop. 
+Download the repository, and unzip to your desktop. 
 
-2. Run the following from the terminal:
+Run the following from the terminal:
 
 ```python
-python (path to setup,py) install
-```
-3. 
+  python (path to setup,py) install
+  ```
+The program is designed to handle the scraping, sentiment analysis, and output all in one step. 
+To utilize this, run scraper_and_analysis.py
+
+Follow the fields in the GUI. Your .csv output file will be located in the folder you unzipped in step 1
+
+If you just need to scrape Twitter for tweets, use scraper.py 
+
+If you already have tweets in a .JSON file, and you just want to run a sentiment analysis, use sentiment_analysis.py 
+
+# Acknowledgements 
+
+This program could not be made possible without the use of twitterscraper by Ahmet Taspinar (https://github.com/taspinar/twitterscraper)
+
+Sentiment analysis by Textblob. TextBlob is a Python (2 and 3) library for processing textual data. It provides a consistent API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, and more. https://github.com/sloria/textblob
 
 
