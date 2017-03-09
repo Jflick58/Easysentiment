@@ -21,7 +21,7 @@ Download the repository, and unzip to your desktop.
 Run the following from the terminal:
 
 ```python
-  python (path to setup,py) install
+  python (path to setup.py) install
   ```
 The program is designed to handle the scraping, sentiment analysis, and output all in one step. 
 To utilize this, run scraper_and_analysis.py
@@ -38,4 +38,6 @@ This program could not be made possible without the use of twitterscraper by Ahm
 
 Sentiment analysis by Textblob. TextBlob is a Python (2 and 3) library for processing textual data. It provides a consistent API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, and more. https://github.com/sloria/textblob
 
+# Future Plans 
 
+I hope to use a python complier library to compile this into a standalone executable for MacOS, Windows 10, and Linux. 
