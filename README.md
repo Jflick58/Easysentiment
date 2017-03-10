@@ -16,12 +16,10 @@ Python 3.5 or higher
 
 # Use 
 
-Download the repository, and unzip to your desktop. 
-
-Run the following from the terminal:
+You can install via pip: 
 
 ```python
-  python (path to setup.py) install
+  pip install easysentiment
   ```
 The program is designed to handle the scraping, sentiment analysis, and output all in one step. 
 To utilize this, run scraper_and_analysis.py
