@@ -5,7 +5,7 @@
 import sys
 import argparse
 
-from .scraper import scraper
+from .scraper import scrape
 from .scraper_and_analysis import scrape_and_analyze
 from .sentiment_analysis import analyze_sentiment
 
@@ -16,7 +16,7 @@ def cli(argv=None):
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="subparser_name")
     func_dict = {
-        'scrape': scraper,
+        'scrape': scrape,
         'scrape-and-analyze': scrape_and_analyze,
         'analyze-sentiment': analyze_sentiment,
     }

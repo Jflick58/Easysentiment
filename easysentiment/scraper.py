@@ -43,8 +43,8 @@ class JSONEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, obj)
 
 
-def scraper():
-    """scraper."""
+def scrape():
+    """scrape."""
     # Opens a GUI on start
 
     version = 'Twitter Data Scraper 1.1'
