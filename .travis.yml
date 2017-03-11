@@ -1,0 +1,8 @@
+language: python
+
+python:
+  - "3.5"
+script:
+ - "python setup.py test"
+#after_success:
+  #- bash <(curl -s https://codecov.io/bash)

@@ -12,6 +12,7 @@ def read(fname):
     """read file."""
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+
 setup(
     name='easysentiment',
     version='1.1',
@@ -31,10 +32,16 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3'
     ],
+    setup_requires=['pytest-runner'],
     install_requires=[
         'easygui==0.98.1',
         'textblob==0.12.0',
         'twitterscraper==0.2.7',
+    ],
+    tests_require=[
+        'pytest-flake8',
+        'pytest',
+        'pytest-cov'
     ],
     entry_points={
         'console_scripts': [
