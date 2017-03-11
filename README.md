@@ -37,6 +37,11 @@ If you just need to scrape Twitter for tweets, use `scrape` subcommand.
 
 If you already have tweets in a .JSON file, and you just want to run `analyze-sentiment` subcommand.
 
+
+# Screenshot
+
+![alt tag](https://github.com/rachmadaniHaryono/Easysentiment/blob/feature/pip-module/res/Twitter%20Data%20Scraper%201.1.png)
+
 # Acknowledgements 
 
 This program could not be made possible without the use of twitterscraper by Ahmet Taspinar (https://github.com/taspinar/twitterscraper)
