@@ -20,9 +20,8 @@ def cli(argv=None):
         'scrape-and-analyze': scrape_and_analyze,
         'analyze-sentiment': analyze_sentiment,
     }
-    subparsers.add_parser('scrape')
-    subparsers.add_parser('scrape-and-analyze')
-    subparsers.add_parser('analyze-sentiment')
+    for key in func_dict:
+        subparsers.add_parser(key, help=func_dict[key].__doc__)
     args = parser.parse_args(argv)
     if args.subparser_name in func_dict:
         func_dict[args.subparser_name]()
