@@ -15,7 +15,7 @@ def read(fname):
 
 setup(
     name='easysentiment',
-    version='1.1',
+    version='1.2',
     # scripts=['scraper_and_analysis.py', 'scraper.py', 'sentiment_analysis.py']
     author="Justin Flick",
     description=("GUI Application for Twitter Scraping and Sentiment Analysis using Python."),
