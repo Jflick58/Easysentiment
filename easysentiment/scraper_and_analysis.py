@@ -50,7 +50,7 @@ def scrape_and_analyze():
     """scrape and analyze."""
     # Opens a GUI on start
 
-    version = 'Twitter Data Scraper and Sentiment Analysis Tool 1.3'
+    version = 'Twitter Data Scraper and Sentiment Analysis Tool 1.4'
 
     options = ['Start', 'Developer Page', 'Exit']
 
@@ -71,7 +71,7 @@ def scrape_and_analyze():
     msg = "Enter your query information. Output will be in the form of a .csv file"
     title = version
     fieldNames = [  # NOQA
-        "Search term (do not include the '#' mark, just the the hashtag text",
+        "Search term (do not include the '#' mark, just the the hashtag text)","From Account"
         "Starting Date (YYYY-MM-DD)", "Ending Date (YYYY-MM-DD)", "Number of Tweets",
         "Output File Name"
     ]
@@ -79,14 +79,15 @@ def scrape_and_analyze():
     fieldValues = g.multenterbox(msg, title, fieldNames)  # NOQA
 
     query = fieldValues[0]
-    starting_date = fieldValues[1]
-    ending_date = fieldValues[2]
-    limit = int(fieldValues[3])
-    output2 = fieldValues[4]
+    account = fieldValues[1]
+    starting_date = fieldValues[2]
+    ending_date = fieldValues[3]
+    limit = int(fieldValues[4])
+    output2 = fieldValues[5]
 
     # Scrape Twitter
 
-    tweets = query_tweets(query + '%20since%3A' + starting_date + 'until%3A' + ending_date, limit)
+    tweets = query_tweets(query + '%20from%3A' + account +'%20since%3A' + starting_date + 'until%3A' + ending_date, limit)
 
     with open(output2 + '.json', "w") as output:
         dump(tweets, output, cls=JSONEncoder)
