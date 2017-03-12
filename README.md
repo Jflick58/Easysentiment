@@ -48,7 +48,7 @@ If you already have tweets in a .JSON file, and you just want to run the `analyz
 
 # Screenshot
 
-![alt tag](https://github.com/rachmadaniHaryono/Easysentiment/blob/feature/pip-module/res/Twitter%20Data%20Scraper%201.1.png)
+![alt tag](https://github.com/Jflick58/Easysentiment/blob/master/res/Twitter%20Data%20Scraper%201.1.png)
 
 # Acknowledgements 
 
