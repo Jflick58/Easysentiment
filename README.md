@@ -1,6 +1,6 @@
 # Easysentiment Twitter Scraper and Sentiment Analyzer 
 
-GUI Program for scraping Twitter for data and performing Naive-Bayes sentiment analysis. 
+GUI Program for scraping Twitter data and performing Naive-Bayes sentiment analysis. 
 
 # Motivation 
 
