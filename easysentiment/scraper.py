@@ -47,12 +47,12 @@ def scrape():
     """scrape."""
     # Opens a GUI on start
 
-    version = 'Twitter Data Scraper 1.2'
+    version = 'Easysentiment Scraper 1.2'
 
     options = ['Start', 'Developer Page', 'Exit']
 
     button = g.buttonbox(
-        'Welcome to Twitter Data Scraper Tool' + '\n' + '\n' + '\n' + '\n' + '\n' +
+        'Welcome to Easysentiment Twitter Scraper' + '\n' + '\n' + '\n' + '\n' + '\n' +
         'Created by Justin Flick, Copyright 2017 Licensed Under MIT License',
         title=version, choices=options
     )
