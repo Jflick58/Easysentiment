@@ -50,7 +50,7 @@ def scrape_and_analyze():
     """scrape and analyze."""
     # Opens a GUI on start
 
-    version = 'Twitter Data Scraper and Sentiment Analysis Tool 1.4'
+    version = 'Easysentiment 1.4'
 
     options = ['Start', 'Developer Page', 'Exit']
 
