@@ -68,7 +68,7 @@ def scrape_and_analyze():
     if button == options[2]:
         sys.exit()
 
-    msg = "Enter your query information. Output will be in the form of a .json file"
+    msg = "Enter your query information. Output will be in the form of a .csv file"
     title = version
     fieldNames = [  # NOQA
         "Search term (do not include the '#' mark, just the the hashtag text",
