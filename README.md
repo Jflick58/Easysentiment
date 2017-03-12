@@ -62,3 +62,4 @@ Special thanks to Github user Rachmadani Haryono (https://github.com/rachmadaniH
 
 - Complile into standalone executable. 
 - Add exclusion terms 
+- Add location parameters to search query
