@@ -56,6 +56,9 @@ This program could not be made possible without the use of twitterscraper by Ahm
 
 Sentiment analysis by Textblob. TextBlob is a Python (2 and 3) library for processing textual data. It provides a consistent API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, and more. https://github.com/sloria/textblob
 
+Special thanks to Github user Rachmadani Haryono (https://github.com/rachmadaniHaryono) for helping me package this for distribution and for writing the command line launcher. 
+
 # Future Plans 
 
-I hope to use a python complier library to compile this into a standalone executable for MacOS, Windows 10, and Linux. 
+- Complile into standalone executable. 
+- Add exclusion terms 
