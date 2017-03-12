@@ -29,7 +29,7 @@ or directly from github:
 ```
 
 The program is designed to handle the scraping, sentiment analysis, and output all in one step. 
-To utilize this, run `easysentiment` follow with subcommand you want to run.
+To utilize this, run `easysentiment` followed by the subcommand you want to run.
 
 I suggest nagivating to the desktop in terminal before running the program. You can do so by typing:
 
@@ -43,7 +43,7 @@ If you need to scrape Twitter for tweets and perform a sentiment analysis, use  
 
 If you just need to scrape Twitter for tweets, use the `scrape` subcommand.
 
-If you already have tweets in a .JSON file, and you just want to run the `analyze-sentiment` subcommand.
+If you already have tweets in a .JSON file, and you just want to perform a sentiment analysis, run the `analyze-sentiment` subcommand.
 
 
 # Screenshot
@@ -52,7 +52,7 @@ If you already have tweets in a .JSON file, and you just want to run the `analyz
 
 # Acknowledgements 
 
-This program could not be made possible without the use of twitterscraper by Ahmet Taspinar (https://github.com/taspinar/twitterscraper)
+This program would not have been possible without the use of twitterscraper by Ahmet Taspinar (https://github.com/taspinar/twitterscraper)
 
 Sentiment analysis by Textblob. TextBlob is a Python (2 and 3) library for processing textual data. It provides a consistent API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, and more. https://github.com/sloria/textblob
 
