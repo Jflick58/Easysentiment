@@ -1,4 +1,4 @@
-# Twitter Scraper and Sentiment Analysis
+# Easysentiment Twitter Scraper and Sentiment Analyzer 
 
 GUI Program for scraping Twitter for data and performing Naive-Bayes sentiment analysis. 
 
@@ -48,7 +48,7 @@ If you already have tweets in a .JSON file, and you just want to run the `analyz
 
 # Screenshot
 
-![alt tag](https://github.com/Jflick58/Easysentiment/blob/master/res/Twitter%20Data%20Scraper%201.1.png)
+![alt tag](https://github.com/Jflick58/Easysentiment/blob/master/res/Easysentiment%201.2.png)
 
 # Acknowledgements 
 
