@@ -50,12 +50,12 @@ def scrape_and_analyze():
     """scrape and analyze."""
     # Opens a GUI on start
 
-    version = 'Easysentiment 1.4'
+    version = 'Easysentiment 1.2'
 
     options = ['Start', 'Developer Page', 'Exit']
 
     button = g.buttonbox(
-        'Welcome to Twitter Data Scraper and Sentiment Analysis Tool' +
+        'Welcome to Easysentiment Twitter Scraper and Seniment Analyzer Version 1.2' +
         '\n' + '\n' + '\n' + '\n' + '\n' +
         'Created by Justin Flick, Copyright 2017 Licensed Under MIT License',
         title=version, choices=options
