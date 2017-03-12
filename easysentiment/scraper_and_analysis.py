@@ -101,7 +101,7 @@ def scrape_and_analyze():
     # turns the string into a json Python object
     data_python = json.loads(data_json)
 
-    csv_out = open('Sentiment_Analysis.csv', mode='w')  # opens csv file
+    csv_out = open(output2 + '.csv', mode='w')  # opens csv file
     writer = csv.writer(csv_out)  # create the csv writer object
 
     fields = ['text', 'timestamp', 'polarity', 'subjectivity', 'sentiment']  # field names
