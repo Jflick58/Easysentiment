@@ -21,14 +21,26 @@ You can install via pip:
 ```python
   pip install easysentiment
   ```
+
+or directly from github:
+
+```python
+    pip install git+https://github.com/Jflick58/Easysentiment
+```
+
 The program is designed to handle the scraping, sentiment analysis, and output all in one step. 
-To utilize this, run scraper_and_analysis.py
+To utilize this, run `easysentiment` follow with subcommand you want to run.
 
-Follow the fields in the GUI. Your .csv output file will be located in the folder you unzipped in step 1
+Fill the fields in the GUI. Your .csv output file will be located in current working directory.
 
-If you just need to scrape Twitter for tweets, use scraper.py 
+If you just need to scrape Twitter for tweets, use `scrape` subcommand.
 
-If you already have tweets in a .JSON file, and you just want to run a sentiment analysis, use sentiment_analysis.py 
+If you already have tweets in a .JSON file, and you just want to run `analyze-sentiment` subcommand.
+
+
+# Screenshot
+
+![alt tag](https://github.com/rachmadaniHaryono/Easysentiment/blob/feature/pip-module/res/Twitter%20Data%20Scraper%201.1.png)
 
 # Acknowledgements 
 
