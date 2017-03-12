@@ -31,11 +31,19 @@ or directly from github:
 The program is designed to handle the scraping, sentiment analysis, and output all in one step. 
 To utilize this, run `easysentiment` follow with subcommand you want to run.
 
+I suggest nagivating to the desktop in terminal before running the program. You can do so by typing:
+
+```python
+    cd desktop
+```
+
 Fill the fields in the GUI. Your .csv output file will be located in current working directory.
 
-If you just need to scrape Twitter for tweets, use `scrape` subcommand.
+If you need to scrape Twitter for tweets and perform a sentiment analysis, use  the`scrape-and-analyze` subcommand. 
 
-If you already have tweets in a .JSON file, and you just want to run `analyze-sentiment` subcommand.
+If you just need to scrape Twitter for tweets, use the `scrape` subcommand.
+
+If you already have tweets in a .JSON file, and you just want to run the `analyze-sentiment` subcommand.
 
 
 # Screenshot
