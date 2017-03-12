@@ -67,7 +67,7 @@ def scrape():
     msg = "Enter your query information. Output will be in the form of a .json file"
     title = version
     fieldNames = [  # NOQA
-        "Search term (do not include the '#' mark, just the the hashtag text)","From Account"
+        "Search term (do not include the '#' mark, just the the hashtag text)","From Account",
         "Starting Date (YYYY-MM-DD)", "Ending Date (YYYY-MM-DD)", "Number of Tweets",
         "Output File Name"
     ]
