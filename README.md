@@ -14,7 +14,7 @@ I then decided to make it an all-in-one program with a simple-to-use GUI in orde
 
 Python 3.5 or higher
 
-# Use 
+# Installation and Use 
 
 You can install via pip: 
 
