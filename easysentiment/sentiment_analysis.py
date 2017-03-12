@@ -27,12 +27,12 @@ def analyze_sentiment():
     """analyze sentiment."""
     # Opens a GUI on start
 
-    version = 'Twitter Sentiment Analysis Tool 1.1'
+    version = 'Easysentiment Sentiment Analyzer 1.2'
 
     options = ['Start', 'Developer Page', 'Exit']
 
     button = g.buttonbox(
-        'Welcome to Twitter Sentiment Analysis Tool' +
+        'Welcome to Easysentiment Sentiment Analyzer 1.2' +
         '\n' + '\n' + '\n' + '\n' + '\n' +
         'Created by Justin Flick, Copyright 2017 Licensed Under MIT License',
         title=version, choices=options)
