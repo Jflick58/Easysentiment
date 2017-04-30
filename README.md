@@ -29,7 +29,7 @@ or directly from github:
 ```
 
 The program is designed to handle the scraping, sentiment analysis, and output all in one step. 
-To utilize this, run `easysentiment` followed by the subcommand you want to run.
+To utilize this, open terminal (on Mac/Linux) or Command Prompt (on Windows) and run `easysentiment` followed by the subcommand you want to run.
 
 I suggest nagivating to the desktop in terminal before running the program. You can do so by typing:
 
