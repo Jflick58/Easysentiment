@@ -37,7 +37,7 @@ I suggest nagivating to the desktop in terminal before running the program. You 
     cd desktop
 ```
 
-Fill the fields in the GUI. Your .csv output file will be located in current working directory.
+Fill the fields in the GUI. The only fields that are mandatory are search term OR account AND output file name. Your .csv output file will be located in current working directory.
 
 If you need to scrape Twitter for tweets and perform a sentiment analysis, use  the`scrape-and-analyze` subcommand. 
 
