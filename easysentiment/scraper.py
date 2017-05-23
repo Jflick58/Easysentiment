@@ -67,7 +67,7 @@ def scrape():
     msg = "Enter your query information. Output will be in the form of a .json file"
     title = version
     fieldNames = [  # NOQA
-        "Search term (do not include the '#' mark, just the the hashtag text)","From Account",
+        "Search term (do not include the '#' mark, just the the hashtag text)", "From Account",
         "Starting Date (YYYY-MM-DD)", "Ending Date (YYYY-MM-DD)", "Number of Tweets",
         "Output File Name"
     ]
@@ -83,7 +83,10 @@ def scrape():
 
     # Scrape Twitter
 
-    tweets = query_tweets(query + '%20from%3A' + account +'%20since%3A' + starting_date + 'until%3A' + ending_date, limit)
+    tweets = query_tweets(
+        query + '%20from%3A' + account +
+        '%20since%3A' + starting_date + 'until%3A' + ending_date, limit
+    )
 
     with open(output2 + '.json', "w") as output:
         dump(tweets, output, cls=JSONEncoder)
